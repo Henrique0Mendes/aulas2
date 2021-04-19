@@ -1,0 +1,74 @@
+
+.barra {
+    overflow: hidden;
+    background-color: #323950;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+  }
+
+  .barra a{
+
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+
+  .barra a:hover {
+    background-color: #30386a;
+    color: black;
+  }
+
+  .barra-active{
+    background-color:#30386a;
+    font-size: large;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.dropdownOthers {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdownOthers .dropbtnOthers {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 28px 26px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  
+.dropdown-contentOthers {
+    display: none;
+    position: absolute;
+    background-color: #323950;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contentOthers a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-contentOthers a:hover {
+    background-color: #30386a;
+  }
+  
+  .dropdownOthers:hover .dropdown-contentOthers {
+    display: block;
+  }
