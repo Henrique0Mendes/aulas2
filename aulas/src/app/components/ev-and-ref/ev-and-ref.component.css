@@ -1,0 +1,31 @@
+.botao{
+    border-radius: 8px;
+    background-color: #1C2428 ;
+    color:white;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px;
+    box-shadow: 2px 2px 2px black;
+    outline: none;
+    margin-right: 1vw;
+}
+
+.posicao{
+    margin-left:15vw;
+    margin-top: 5vh;
+}
+
+button:active {
+    background: #1C2428;
+    -webkit-box-shadow: inset 0px 0px 5px black;
+       -moz-box-shadow: inset 0px 0px 5px black;
+            box-shadow: inset 0px 0px 5px black;
+     outline: none;
+}
+
+input{
+    display: block;
+    margin-left:20vw;
+    margin-top: 10vh;
+}
