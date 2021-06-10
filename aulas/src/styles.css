@@ -4,3 +4,8 @@ body{
     margin:0px;
     background-image: url("src/app/imagens/fundo.jpg");
     }
+
+
+  .comprados{
+    text-decoration: line-through;
+  }
