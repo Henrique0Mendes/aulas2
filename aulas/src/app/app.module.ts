@@ -17,6 +17,7 @@ import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

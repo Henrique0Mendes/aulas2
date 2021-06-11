@@ -1,17 +1,22 @@
-<nav>
-    <div class="barra">
-         <a [routerLink]="['/Home']" routerLinkActive="barra-active"><i class="fa fa-home" style="font-size:24px"></i> Home</a>
-         <a [routerLink]="['/Calculator']" routerLinkActive="barra-active"><i class="fa fa-calculator" style="font-size:24px"></i> Calculator</a>
-         <a [routerLink]="['/ListaCompras']" routerLinkActive="barra-active"><i class="fa fa-shopping-cart" style="font-size:24px"></i> Lista de Compras</a>
-         <a [routerLink]="['/EvAndRef']" routerLinkActive="barra-active"> evAndRef</a>
-         <!-- <div class="dropdownOthers">
-            <button class="dropbtnOthers">Others 
-              <i class="fa fa-caret-down"></i>
-            </button>
-           <div class="dropdown-contentOthers">
-                <a [routerLink]="['/readMeGenerator']" routerLinkActive="barra-active"><i class="	fab fa-readme" style="font-size:24px"></i> Generator</a>
-                <a [routerLink]="['/evAndRef']" routerLinkActive="barra-active"> evAndRef</a>
-            </div> 
-          </div>  -->
+
+<div class="Navbar">
+  <div class="Navbar__Link Navbar__Link-brand">
+    <div class="circulo">H</div><div style="display: inline-block">Henrique Mendes</div>
    </div>
+   <div class="Navbar__Link Navbar__Link-toggle">
+     <i class="fa fa-bars" (click)='classToggle()' ></i>
+   </div>
+ <nav class="Navbar__Items Navbar__Items--right">
+  <div class="Navbar__Link">
+    <a   [routerLink]="['/Home']" routerLinkActive="barra-active"><i class="fa fa-home" style="font-size:24px"></i> Home</a>
+  </div>
+   <div class="Navbar__Link">
+    <a   [routerLink]="['/Calculator']" routerLinkActive="barra-active"><i class="fa fa-calculator" style="font-size:24px"></i> Calculator</a>
+   </div>
+   <div class="Navbar__Link">
+    <a  [routerLink]="['/ListaCompras']" routerLinkActive="barra-active"><i class="fa fa-shopping-cart" style="font-size:24px"></i> Lista de Compras</a>
+   </div>
+   <div class="Navbar__Link">
+    <a   [routerLink]="['/EvAndRef']" routerLinkActive="barra-active"> evAndRef</a></div>
  </nav>
+</div>

@@ -1,75 +1,74 @@
-    
-.barra {
-    overflow: hidden;
-    background-color: #323950;
-    display: flex;
-    align-items: center;
-    align-content: space-around;
-    justify-content: space-around;
-  }
-
-  .barra a{
-
-    color: white;
-    text-align: center;
-    padding: 24px 26px;
-    text-decoration: none;
-    font-size: 17px;
-    
-  }
-
-  .barra a:hover {
-    background-color: #30386a;
-    color: black;
-  }
-
-  .barra-active{
-    background-color:#30386a;
-    font-size: large;
-    font-weight: bold;
-    transition: all 1s;
+.Navbar {
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 2rem;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+.circulo {
+  width: 50px;
+  height: 50px;
+  background-color: #0063ac;
+  border-radius: 50%;
+  display: -webkit-flex;
+     display: -ms-flexbox;
+            display: flex;
 
-.dropdownOthers {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdownOthers .dropbtnOthers {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 28px 26px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    -webkit-align-items: center;
+      -webkit-box-align: center;
+	 -ms-flex-align: center;
+	    align-items: center;
+    
+  justify-content: center;
+  margin: 0;
   }
 
-  
-.dropdown-contentOthers {
-    display: none;
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+
+.Navbar__Items {
+    display:none;
+  }
+    
+.Navbar__Items--right {
+    margin-left:0;
+  }
+    
+.Navbar__ToggleShow {
+    display: flex;
+  }
+    
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
     position: absolute;
-    background-color: #323950;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-contentOthers a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-contentOthers a:hover {
-    background-color: #30386a;
-  }
-  
-  .dropdownOthers:hover .dropdown-contentOthers {
-    display: block;
-  }
+    cursor: pointer;
+   } 
+}

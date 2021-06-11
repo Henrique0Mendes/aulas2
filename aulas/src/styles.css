@@ -9,3 +9,24 @@ body{
   .comprados{
     text-decoration: line-through;
   }
+
+      
+.caixaPrincipal{
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  flex: 0 0 100%;
+  max-width: 1240px;
+  margin: 3% auto;
+  padding: 40px 70px 60px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 40px -10px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 0 40px -10px rgba(0,0,0,.2);
+  box-shadow: 0 0 40px -10px rgb(0 0 0 / 20%);
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.back-color-Grey{
+background-color: #222;
+}

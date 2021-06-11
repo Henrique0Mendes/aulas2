@@ -12,4 +12,12 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+   classToggle() {
+   let navs = document.querySelectorAll('.Navbar__Items')
+    
+    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+  }
+  
+
+
 }

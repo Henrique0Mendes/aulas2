@@ -11,6 +11,7 @@ import { ListaDeComprasComponent } from './components/lista-de-compras/lista-de-
 import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
 
+
 const routes: Routes = [
   {path:"", component:HomeComponent},
   {path:"Home",component:HomeComponent},
