@@ -5,13 +5,13 @@ img{
      height: 320px;
      border-radius: 50%;
      border: 13px solid #444;
-     margin-top: 3vh;
-     margin-left: 8vw;
+     margin-top: 7vh;
+     margin-left: 5vw;
   }
 
 .txtpequeno{
     color:#aaa;
-    margin-top: 4vh;
+    margin-top: 8vh;
     margin-bottom: 1vh;
 
   }
@@ -30,4 +30,14 @@ img{
 
 *{
  font-family: 'Poppins', sans-serif;
+}
+
+hr{
+  color: #0063ac;
+  width: 100px;
+  border: 2px solid #0063ac;
+}
+
+.margem-top{
+  margin-top: 6vh;
 }
