@@ -1,0 +1,33 @@
+
+
+img{
+     width: 320px;
+     height: 320px;
+     border-radius: 50%;
+     border: 13px solid #444;
+     margin-top: 3vh;
+     margin-left: 8vw;
+  }
+
+.txtpequeno{
+    color:#aaa;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+
+  }
+
+.titulo{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 3vh;
+
+
+}
+.txtgrande{
+    color: #d5d5d5;
+ 
+}
+
+*{
+ font-family: 'Poppins', sans-serif;
+}
