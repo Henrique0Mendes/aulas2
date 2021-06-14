@@ -16,6 +16,9 @@ import { AddComponent } from './components/lista-de-compras/add/add.component';
 import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
+import { ChuckComponent } from './components/chuck/chuck.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -33,11 +36,13 @@ import { CookiesComponent } from './components/cookies/cookies.component';
     PColorComponent,
     SColorComponent,
     CookiesComponent,
+    ChuckComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
     
   ],
   providers: [],

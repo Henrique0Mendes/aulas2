@@ -10,6 +10,7 @@ import { BuyComponent } from './components/lista-de-compras/buy/buy.component';
 import { ListaDeComprasComponent } from './components/lista-de-compras/lista-de-compras.component';
 import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
+import { ChuckComponent } from './components/chuck/chuck.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:"Calculator",component:CalculatorComponent},
   {path:"EvAndRef",component:EvAndRefComponent},
   {path:"Clinica",component:ClinicaVeterinariaComponent},
+  {path:"Chuck",component:ChuckComponent},
   {path:"ListaCompras", component:ListaDeComprasComponent ,children:[
     {path:"add", component:AddComponent},
     {path:"buy", component:BuyComponent},
