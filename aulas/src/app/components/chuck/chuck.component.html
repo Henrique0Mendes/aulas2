@@ -2,7 +2,7 @@
 <!--<h2>{{this.resultado.value}}</h2>-->
 <br><br>
 <button class="botao" (click)="getJoke()">Piada aleatoria</button>
-<button class="botao" (click)="getMoreJokes(valor.value)">Pesquisar por piadas</button><br>
+<button class="botao" (click)="getMoreJokes(valor.value)">Pesquisar</button><br><br>
 <input type="text" placeholder="Palavra a pesquisar..." #valor>
 <h1>{{piada}}</h1>
 <div *ngFor="let item of piadas.result">
