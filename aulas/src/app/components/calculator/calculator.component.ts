@@ -11,26 +11,13 @@ export class CalculatorComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  equacao ="";
-  mostrador="";
+  valor1 = 0;
+  valor2 = 0;
+  result;
+  sinal = "";
 
-  mudarMostrador(event){
-    if (event.target.value=="C"){
-      this.mostrador="";
-      this.equacao="";
-    }else if (event.target.value=="x"){
-      this.equacao = this.equacao + "*";
-      this.mostrador = this.equacao;
-    }else{
-      this.equacao = this.equacao + event.target.value;
-      this.mostrador = this.equacao;
-    }
+  calcula(){
+    this.result=  eval(this.valor1+ this.sinal +this.valor2);
   }
-
-  calcular(){
-    this.equacao = eval(this.equacao);
-    this.mostrador = this.equacao;
-  }
-
  
 }
