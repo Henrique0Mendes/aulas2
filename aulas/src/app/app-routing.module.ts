@@ -11,6 +11,8 @@ import { ListaDeComprasComponent } from './components/lista-de-compras/lista-de-
 import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
 import { ChuckComponent } from './components/chuck/chuck.component';
+import { AnimeComponent } from './components/anime/anime.component';
+import { AnimeSService } from './services/anime-s.service';
 
 
 const routes: Routes = [
@@ -20,6 +22,7 @@ const routes: Routes = [
   {path:"EvAndRef",component:EvAndRefComponent},
   {path:"Clinica",component:ClinicaVeterinariaComponent},
   {path:"Chuck",component:ChuckComponent},
+  {path:"Anime",component:AnimeComponent},
   {path:"ListaCompras", component:ListaDeComprasComponent ,children:[
     {path:"add", component:AddComponent},
     {path:"buy", component:BuyComponent},

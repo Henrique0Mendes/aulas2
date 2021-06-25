@@ -1,6 +1,7 @@
 <input type="text" [style.background]="cor" (mouseenter)='changecolor("red")' (focus)='changecolor("pink")' (blur)='changecolor("grey")' 
 (input)='changecolor("green")' (copy)='changecolor("yellow")' #ref>
-
-<button (click)='mudaTamanho(ref)'>Aumentar</button>
-<button (click)='desaparece(ref)'>Desaparecer</button>
-<button (click)='teleporte(ref)' id="btn">Teleporte</button>
+<div class="centrar">
+    <button class="botao" type="button" (click)='mudaTamanho(ref)'>AUMENTAR</button>
+    <button class="botao" type="button" (click)='desaparece(ref)'>DESAPARECER</button>
+    <button class="botao" type="button" (click)='teleporte(ref)'>TELEPORTE</button>
+</div>

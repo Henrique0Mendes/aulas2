@@ -21,7 +21,6 @@ export class CookiesComponent implements OnInit {
     refCaixa.classList.remove("animacaoSubir");
     refCaixa.classList.add("animacaoDescer");
     setTimeout(function(){  refCaixa.style.display ="none"; }, 500);    
-
   }
 
   lerCookies(){
@@ -29,3 +28,4 @@ export class CookiesComponent implements OnInit {
     this.aceiteiCookie = localStorage.getItem("cookie") == "1" ? true : false;
   }
 }
+

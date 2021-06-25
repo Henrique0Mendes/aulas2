@@ -18,6 +18,7 @@ import { SColorComponent } from './components/p-color/s-color/s-color.component'
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { ChuckComponent } from './components/chuck/chuck.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AnimeComponent } from './components/anime/anime.component';
 
 
 
@@ -37,6 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     SColorComponent,
     CookiesComponent,
     ChuckComponent,
+    AnimeComponent,
   ],
   imports: [
     BrowserModule,

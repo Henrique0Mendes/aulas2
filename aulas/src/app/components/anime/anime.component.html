@@ -1,0 +1,8 @@
+<br><br>
+<button class="botao" (click)="getanimes(valor.value)">Piada aleatoria</button>
+<input type="text" placeholder="Anime a pesquisar..." #valor>
+<div *ngFor="let item of resultado.result">
+    <h3>{{item.value}}</h3>
+</div>
+
+
